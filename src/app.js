@@ -25,7 +25,7 @@ var points = resetPoints({});
 var confirm = function(yCb, nCb, scope) {
   var confirmCard = new UI.Card({
     title: "Confirm Reset",
-    body: "Are you sure?\nUP - Yes\nDOWN - No"
+    body: "Are you sure?\n\nUP - Yes\nDOWN - No"
   });
   
   confirmCard.show();
